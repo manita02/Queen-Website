@@ -1,0 +1,124 @@
+.hero{
+    position: relative;
+    padding-bottom: 3rem;
+}
+
+.band-wrapper{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.band{
+    width: 200px;
+    height: auto;
+    padding: 1rem 0;
+    
+}
+
+.band-circle{
+    background-color: var(--primary--color);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    border-radius: 0 0 50% 50%;
+    transform: translate(0,-45%);
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.hero-title{
+    font-size: 3rem;
+    text-align: center;
+    max-width: 400px;
+}
+
+.hands{
+    width: 100px;
+    height: auto;
+    transition: all;
+    transition-duration: 300ms;
+}
+
+.hands:hover{
+    width: 100px;
+    height: auto;
+    scale: 1.30;
+    background-color: #FFDBC3;
+    border-radius: 10px;
+    border: 2px solid #3D246C;
+}
+
+.left-floating{ 
+    width: 150px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    transform: rotate(-10deg);
+}
+
+.right-floating{
+    width: 140px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    transform: rotate(10deg);
+}
+
+.treble-clef{
+    position: absolute;
+    top: 0;
+    margin-top: -2.3rem;
+    width: 60px;
+    height: auto;
+    
+}
+
+
+
+@media (min-width: 768px){ /*medida estandar para tablets*/
+    .left-floating{ 
+        transform: translate(100%,0) rotate(-10deg);
+    }
+    
+    .right-floating{
+        transform: translate(-100%,0) rotate(10deg);
+    }
+}
+
+
+@media (min-width: 992px){ 
+    .left-floating{ 
+        width: 180px;
+        transform: translate(120%,0) rotate(-10deg);
+    }
+    
+    .right-floating{
+        width: 160px;
+        transform: translate(-150%,0) rotate(10deg);
+    }
+}
+
+
+@media (min-width: 1200px){ 
+    .left-floating{ 
+        width: 220px;
+        transform: translate(120%,0) rotate(-10deg);
+    }
+    
+    .right-floating{
+        width: 200px;
+        transform: translate(-150%,0) rotate(10deg);
+    }
+}

@@ -1,0 +1,22 @@
+:root{
+    --primary--color: #5C4B99;
+}
+
+/*
+main{
+    overflow: hidden;
+}
+*/
+
+body{
+    font-family: "Raleway",sans-serif;
+    background-color: #9F91CC;
+}
+
+.text-one{
+    font-family: "Oswald",serif;
+}
+
+
+
+

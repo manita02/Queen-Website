@@ -1,0 +1,17 @@
+.navbar{
+    background-color: var(--primary--color);
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    padding-bottom: 2rem;
+    
+}
+
+.logo-nav, .youtube{
+    transition: all;
+    transition-duration: 300ms;
+}
+
+.logo-nav:hover, .youtube:hover{
+    scale: 1.15;
+}
