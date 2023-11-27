@@ -1,6 +1,6 @@
 <h1 align="center">🎸🎵Queen Website🎙️🤘</h1>
 <section align="center">
-  <img src="https://avatars.mds.yandex.net/i?id=06fd389f4fe0565d5ec13d55c5ca7f81abe23033-9151250-images-thumbs&n=13" alt="web-site">
+  <img src="https://i.pinimg.com/564x/ac/db/dc/acdbdc7192975623c8b427fec37d5a19.jpg" alt="web-site">
 </section>
 <section align="center">
 <img src="https://img.shields.io/badge/STATE-FINISHED-green" alt="Estado del Proyecto">
